@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortingCodeAccountValidationAPI", "SortingCodeAccountValidationAPI\SortingCodeAccountValidationAPI.csproj", "{E02FAA14-2BAC-4356-9915-07962F905D83}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AEDEA7EE-31CC-422B-A2E5-D8B1EBC164CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{1EA4AA80-BC50-4D29-9DB8-50B97ACBF3A9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortingCodeAccountValidationAPI.Domain", "SortingCodeAccountValidationAPI.Domain\SortingCodeAccountValidationAPI.Domain.csproj", "{6CFBA4D0-4E71-46C9-BA05-E35C5347F000}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingCodeAccountValidationAPI.Services", "SortingCodeAccountValidationAPI.Services\SortingCodeAccountValidationAPI.Services.csproj", "{7C87EA48-6665-4892-AE71-A2F1DB1DF296}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E02FAA14-2BAC-4356-9915-07962F905D83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E02FAA14-2BAC-4356-9915-07962F905D83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E02FAA14-2BAC-4356-9915-07962F905D83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E02FAA14-2BAC-4356-9915-07962F905D83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CFBA4D0-4E71-46C9-BA05-E35C5347F000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CFBA4D0-4E71-46C9-BA05-E35C5347F000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CFBA4D0-4E71-46C9-BA05-E35C5347F000}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CFBA4D0-4E71-46C9-BA05-E35C5347F000}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C87EA48-6665-4892-AE71-A2F1DB1DF296}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C87EA48-6665-4892-AE71-A2F1DB1DF296}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C87EA48-6665-4892-AE71-A2F1DB1DF296}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C87EA48-6665-4892-AE71-A2F1DB1DF296}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E02FAA14-2BAC-4356-9915-07962F905D83} = {AEDEA7EE-31CC-422B-A2E5-D8B1EBC164CF}
+		{6CFBA4D0-4E71-46C9-BA05-E35C5347F000} = {AEDEA7EE-31CC-422B-A2E5-D8B1EBC164CF}
+		{7C87EA48-6665-4892-AE71-A2F1DB1DF296} = {AEDEA7EE-31CC-422B-A2E5-D8B1EBC164CF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54C25442-57D4-4EEE-972B-3C30CEDE89CC}
+	EndGlobalSection
+EndGlobal
