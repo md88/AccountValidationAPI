@@ -5,7 +5,7 @@ namespace SortingCodeAccountValidationAPI.ViewModels
     /// <summary>
     /// The Sorting Code / Account Validation View Model.
     /// </summary>
-    public class SortCodeAccountValidationViewModel
+    public class SortingCodeAccountValidationViewModel
     {
         /// <summary>
         /// Get or sets the Sorting code
@@ -17,6 +17,6 @@ namespace SortingCodeAccountValidationAPI.ViewModels
         /// Gets or sets the Account Number.
         /// </summary>
         [Required]
-        public int AccountNumber { get; set; }
+        public string AccountNumber { get; set; }
     }
 }

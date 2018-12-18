@@ -1,5 +1,6 @@
 ﻿using SortingCodeAccountValidationAPI.Domain.DependencyInjection;
 using SortingCodeAccountValidationAPI.Domain.Model;
+using SortingCodeAccountValidationAPI.Domain.Model.Requests;
 
 namespace SortingCodeAccountValidationAPI.Domain.Services
 {

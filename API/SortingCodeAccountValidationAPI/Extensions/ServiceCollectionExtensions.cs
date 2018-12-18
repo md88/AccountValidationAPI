@@ -12,12 +12,14 @@ namespace SortingCodeAccountValidationAPI.Extensions
         /// Registers the dependencies.
         /// </summary>
         /// <param name="services">The services.</param>
-        /// <returns></returns>
+        /// <returns>The service collection.</returns>
         public static IServiceCollection RegisterDependencies(this IServiceCollection services)
         {
             services.Scan(sc => sc
-                .FromExecutingAssembly()
-                .AddClasses(c => c.AssignableTo<ITransientService>()));
+                .FromApplicationDependencies()
+                .AddClasses(c => c.AssignableTo<ITransientService>())
+                .AsImplementedInterfaces()
+                .WithTransientLifetime());
 
             return services;
         }

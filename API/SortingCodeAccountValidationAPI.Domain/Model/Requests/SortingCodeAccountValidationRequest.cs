@@ -1,4 +1,4 @@
-﻿namespace SortingCodeAccountValidationAPI.Domain.Model
+﻿namespace SortingCodeAccountValidationAPI.Domain.Model.Requests
 {
     /// <summary>
     /// The sorting code / account number validation request.
@@ -13,6 +13,6 @@
         /// <summary>
         /// Gets or sets the account number.
         /// </summary>
-        public int AccountNumber { get; set; }
+        public string AccountNumber { get; set; }
     }
 }

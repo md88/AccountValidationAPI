@@ -13,10 +13,13 @@
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
     <PackageReference Include="Scrutor" Version="3.0.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="4.0.1" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\SortingCodeAccountValidationAPI.Domain\SortingCodeAccountValidationAPI.Domain.csproj" />
+    <ProjectReference Include="..\SortingCodeAccountValidationAPI.Repository\SortingCodeAccountValidationAPI.Repository.csproj" />
+    <ProjectReference Include="..\SortingCodeAccountValidationAPI.Services\SortingCodeAccountValidationAPI.Services.csproj" />
   </ItemGroup>
 
 </Project>
